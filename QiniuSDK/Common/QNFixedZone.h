@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
  *    @param upList     默认上传服务器地址列表
  *    @return Zone实例
  */
-- (instancetype)initWithUpDomainList:(NSArray<NSString *> *)upList;
+- (instancetype)initWithupDomainList:(NSArray<NSString *> *)upList;
 
 /**
  *    Zone初始化方法
